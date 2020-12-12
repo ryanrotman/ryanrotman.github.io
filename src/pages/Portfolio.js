@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function Portfolio() {
 
     useEffect(() => {
-        document.title = "Ryan Rotman | Portfolio"
+        document.title = "Portfolio | Ryan Rotman"
      }, []);
 
     return (

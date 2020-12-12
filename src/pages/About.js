@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function About() {
 
     useEffect(() => {
-        document.title = "Ryan Rotman | About"
+        document.title = "About | Ryan Rotman"
      }, []);
 
     return (

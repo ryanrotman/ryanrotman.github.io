@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function Contact() {
 
     useEffect(() => {
-        document.title = "Ryan Rotman | Contact"
+        document.title = "Contact | Ryan Rotman"
      }, []);
 
     return (
