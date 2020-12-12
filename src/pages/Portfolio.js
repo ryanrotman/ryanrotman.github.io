@@ -4,7 +4,7 @@ function Portfolio() {
 
     useEffect(() => {
         document.title = "Portfolio | Ryan Rotman"
-     }, []);
+    }, []);
 
     return (
         <p>

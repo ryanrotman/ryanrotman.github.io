@@ -4,7 +4,7 @@ function Contact() {
 
     useEffect(() => {
         document.title = "Contact | Ryan Rotman"
-     }, []);
+    }, []);
 
     return (
         <p>
