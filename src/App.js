@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+
   return (
     <BrowserRouter>
       <Navbar />

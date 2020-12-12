@@ -4,10 +4,8 @@ import M from "materialize-css"
 function Navbar() {
 
     useEffect(() => {
-        document.addEventListener('DOMContentLoaded', function() {
-            let elems = document.querySelectorAll('.sidenav');
-            M.Sidenav.init(elems, options);
-          });
+        let sidenav = document.querySelector('#nav-mobile');
+        M.Sidenav.init(sidenav, {});
     }, []);
 
     return (
