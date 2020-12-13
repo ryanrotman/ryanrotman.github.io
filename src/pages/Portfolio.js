@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Skills from "../components/Skills";
 
 function Portfolio() {
 
@@ -7,9 +8,12 @@ function Portfolio() {
     }, []);
 
     return (
-        <p>
-            This is the porfolio page.
-        </p>
+        <div className="container center-align">
+            <p className="white-text">
+                This is the porfolio page which will show the cards with project/assignment information.
+            </p>
+            <Skills />
+        </div>
     );
 }
 
