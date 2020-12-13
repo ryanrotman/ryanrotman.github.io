@@ -8,7 +8,7 @@ function About() {
     }, []);
 
     return (
-        <div className="container">
+        <div className="container about-container">
             <div className="row">
                 <div className="col s12 m4 center">
                     <img className="responsive-img circle" id="headshot" src={headshot} alt="personal headshot" />

@@ -8,7 +8,7 @@ function Portfolio() {
     }, []);
 
     return (
-        <div className="container center-align">
+        <div className="container portfolio-container center-align">
             <p className="white-text">
                 This is the porfolio page which will show the cards with project/assignment information.
             </p>

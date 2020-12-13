@@ -8,7 +8,7 @@ function Contact() {
     }, []);
 
     return (
-        <div className="container center-align">
+        <div className="container contact-container center-align">
             <div className="row">
                 <div className="col l4 s12">
                     <div className="col s12">
