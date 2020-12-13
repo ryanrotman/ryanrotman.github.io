@@ -25,6 +25,7 @@ function Navbar() {
                 <li className="white-text"><a href="/about">About Me</a></li>
                 <li className="white-text"><a href="/contact">Connect</a></li>
             </ul>
+            {/* eslint-disable-next-line */}
             <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
             </div>
         </nav>
