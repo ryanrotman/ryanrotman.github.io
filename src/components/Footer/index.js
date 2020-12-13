@@ -1,10 +1,12 @@
 function Footer() {
     return (
-        <div className="footer-copyright">
-            <div className="container center-align">
-                Copyright © 2020 Ryan Rotman
+        <footer className="page-footer">
+            <div className="footer-copyright">
+                <div className="container center-align">
+                    Copyright © 2020 Ryan Rotman
+                </div>
             </div>
-        </div>
+        </footer>
     )
 }
 
