@@ -10,6 +10,7 @@ function Portfolio(props) {
 
     return (
         <div className="container portfolio-container center-align">
+            <h5 className="white-text" id="projects-heading">Projects</h5>
             <Project
             project={props.project}
             />
