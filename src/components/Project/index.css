@@ -8,6 +8,10 @@
     margin: 10px;
 }
 
+.card.hoverable:hover {
+    box-shadow: 2px 4px 5px 0 whitesmoke, 2px 5px 3px -3px whitesmoke, 2px 5px 10px 0 whitesmoke;
+}
+
 img {
     width: 314px !important;
     height: 187px;
