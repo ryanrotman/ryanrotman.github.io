@@ -2,11 +2,15 @@ import "./index.css";
 
 function Project(props) {
 
+    function revealDescription(event) {
+        
+    }
+
     return (
         <div id="project-cards">
             {props.project.map(project => {
                 return (
-                    <div key={project.id} className="card sticky-action hoverable">
+                    <div key={project.id} className="card sticky-action hoverable" onMouseOver={revealDescription}>
                         <div className="card-image waves-effect waves-block waves-light">
                             <img className="activator" src={project.screenshot} />
                         </div>
