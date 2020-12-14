@@ -12,6 +12,7 @@ function App() {
 
   const [projects] = useState([
     {
+    id: 1,
     title: "SHAKR App",
     description: "A cocktail generator web-app that uses theCocktailDB.com and Google Maps API to render cocktail recipes based on user-submitted ingredients on-hand.",
     app: "https://abraspin.github.io/Project-1-The-Silent-Marvels-/",
@@ -19,6 +20,7 @@ function App() {
     screenshot: "./assets/images/PortfolioPage_Screenshot_Project1.png"
     },
     {
+    id: 2,
     title: "It's a Blog's Life",
     description: "A full-stack weblog app built on NodeJS using express-sequelize, handlebars, Passport, and ESLint. Share your thoughts, find new friends, and give feedback to others content in the form of comments and likes!",
     app: "https://its-a-blogs-life.herokuapp.com/",
@@ -26,6 +28,7 @@ function App() {
     screenshot: "./assets/images/PortfolioPage_Screenshot_Project2.png"
     },
     {
+    id: 3,
     title: "Reading List",
     description: "A full-stack app built on MongoDB, Express, React, and Node that allows a user to add a book, author, and synopsis to their list of books they want to read.",
     app: "https://rr-react-reading-list.herokuapp.com/",
@@ -33,6 +36,7 @@ function App() {
     screenshot: "./assets/images/PortfolioPage_Screenshot_ReadingList.png"
     },
     {
+    id: 4,
     title: "Eat-Da-Burger",
     description: "Burger logger that allows a user to create a burger, change its devoured status, and delete a burger. This app uses Node, Express, Handlebars, and MySQL.",
     app: "https://rr-eat-da-burger.herokuapp.com",
@@ -40,6 +44,7 @@ function App() {
     screenshot: "./assets/images/PortfolioPage_ScreenShot_Homework13.png"
     },
     {
+    id: 5,
     title: "Note Taker",
     description: "This an express application that allows a user to write notes, view submitted notes, and delete notes.",
     app: "https://radiant-tor-19120.herokuapp.com",
@@ -47,6 +52,7 @@ function App() {
     screenshot: "./assets/images/PortfolioPage_ScreenShot_Homework11.png"
     },
     {
+    id: 6,
     title: "Weather Dashboard",
     description: "Weather dashboard that incorporates third-party APIs using jQuery's AJAX call to show a city's current temperature, humidity, wind speed, uv index and 5-day forecast. Uses Local Storage for persistent data.",
     app: "https://ryanrotman.github.io/homework-6-weather-dashboard/",
