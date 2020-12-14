@@ -69,26 +69,30 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar />
-      <Switch>
-        <Route exact path="/">
-          <Home
-            project={projects}
-          />
-        </Route>
-        <Route exact path="/portfolio">
-          <Portfolio
-            project={projects}
-          />
-        </Route>
-        <Route exact path="/about">
-          <About />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
-      <Footer />
+      <main>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home
+              project={projects}
+            />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio
+              project={projects}
+            />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </BrowserRouter>
   );
 }
