@@ -52,6 +52,10 @@ h5 {
   font-weight: bold;
 }
 
+#projects-note {
+  font-size: small;
+}
+
 .portfolio-container, .about-container, .contact-container {
   margin-top: 50px;
 }

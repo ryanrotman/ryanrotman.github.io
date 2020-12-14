@@ -11,6 +11,8 @@ function Portfolio(props) {
     return (
         <div className="container portfolio-container center-align">
             <h5 className="white-text" id="projects-heading">Projects</h5>
+            <i className="white-text" id="projects-note">(click on the image to see a description of the app)</i>
+            &nbsp;
             <Project
             project={props.project}
             />
