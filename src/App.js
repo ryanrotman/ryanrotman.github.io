@@ -7,6 +7,12 @@ import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import project1Img from "./assets/images/PortfolioPage_Screenshot_Project1.png";
+import project2Img from "./assets/images/PortfolioPage_Screenshot_Project2.png";
+import readingListImg from "./assets/images/PortfolioPage_Screenshot_ReadingList.png";
+import homework13Img from "./assets/images/PortfolioPage_ScreenShot_Homework13.png";
+import homework11Img from "./assets/images/PortfolioPage_ScreenShot_Homework11.png";
+import homework6Img from "./assets/images/PortfolioPage_Screenshot_Homework6.png";
 
 function App() {
 
@@ -17,7 +23,7 @@ function App() {
     description: "A cocktail generator web-app that uses theCocktailDB.com and Google Maps API to render cocktail recipes based on user-submitted ingredients on-hand.",
     app: "https://abraspin.github.io/Project-1-The-Silent-Marvels-/",
     code: "https://github.com/abraspin/Project-1-The-Silent-Marvels-",
-    screenshot: "./assets/images/PortfolioPage_Screenshot_Project1.png"
+    screenshot: project1Img
     },
     {
     id: 2,
@@ -25,7 +31,7 @@ function App() {
     description: "A full-stack weblog app built on NodeJS using express-sequelize, handlebars, Passport, and ESLint. Share your thoughts, find new friends, and give feedback to others content in the form of comments and likes!",
     app: "https://its-a-blogs-life.herokuapp.com/",
     code: "https://github.com/Cenzo-cmd/Project-2",
-    screenshot: "./assets/images/PortfolioPage_Screenshot_Project2.png"
+    screenshot: project2Img
     },
     {
     id: 3,
@@ -33,7 +39,7 @@ function App() {
     description: "A full-stack app built on MongoDB, Express, React, and Node that allows a user to add a book, author, and synopsis to their list of books they want to read.",
     app: "https://rr-react-reading-list.herokuapp.com/",
     code: "https://github.com/ryanrotman/react-reading-list",
-    screenshot: "./assets/images/PortfolioPage_Screenshot_ReadingList.png"
+    screenshot: readingListImg
     },
     {
     id: 4,
@@ -41,7 +47,7 @@ function App() {
     description: "Burger logger that allows a user to create a burger, change its devoured status, and delete a burger. This app uses Node, Express, Handlebars, and MySQL.",
     app: "https://rr-eat-da-burger.herokuapp.com",
     code: "https://github.com/ryanrotman/homework-13-eat-da-burger",
-    screenshot: "./assets/images/PortfolioPage_ScreenShot_Homework13.png"
+    screenshot: homework13Img
     },
     {
     id: 5,
@@ -49,7 +55,7 @@ function App() {
     description: "This an express application that allows a user to write notes, view submitted notes, and delete notes.",
     app: "https://radiant-tor-19120.herokuapp.com",
     code: "https://github.com/ryanrotman/homework-11-note-taker",
-    screenshot: "./assets/images/PortfolioPage_ScreenShot_Homework11.png"
+    screenshot: homework11Img
     },
     {
     id: 6,
@@ -57,7 +63,7 @@ function App() {
     description: "Weather dashboard that incorporates third-party APIs using jQuery's AJAX call to show a city's current temperature, humidity, wind speed, uv index and 5-day forecast. Uses Local Storage for persistent data.",
     app: "https://ryanrotman.github.io/homework-6-weather-dashboard/",
     code: "https://github.com/ryanrotman/homework-6-weather-dashboard",
-    screenshot: "./assets/images/PortfolioPage_Screenshot_Homework6.png"
+    screenshot: homework6Img
     }
   ]);
 
