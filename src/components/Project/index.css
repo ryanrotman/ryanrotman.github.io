@@ -7,3 +7,17 @@
 .card {
     margin: 10px;
 }
+
+img {
+    width: 314px !important;
+    height: 187px;
+}
+
+.btn {
+    background-color: black;
+    margin-right: 10px;
+}
+  
+.btn:hover {
+    background-color: #717786;
+}
