@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import Skills from "../components/Skills";
+import Project from "../components/Project";
 
-function Portfolio() {
+function Portfolio(props) {
 
     useEffect(() => {
         document.title = "Portfolio | Ryan Rotman"
@@ -9,9 +10,10 @@ function Portfolio() {
 
     return (
         <div className="container portfolio-container center-align">
-            <p className="white-text">
-                This is the porfolio page which will show the cards with project/assignment information.
-            </p>
+            <Project
+            project={props.project}
+            />
+            &nbsp;
             <Skills />
         </div>
     );
