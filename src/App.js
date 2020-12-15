@@ -13,6 +13,7 @@ import readingListImg from "./assets/images/PortfolioPage_Screenshot_ReadingList
 import homework13Img from "./assets/images/PortfolioPage_ScreenShot_Homework13.png";
 import homework11Img from "./assets/images/PortfolioPage_ScreenShot_Homework11.png";
 import homework6Img from "./assets/images/PortfolioPage_Screenshot_Homework6.png";
+import "materialize-css/dist/css/materialize.min.css";
 
 function App() {
 
