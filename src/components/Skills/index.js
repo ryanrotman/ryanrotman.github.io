@@ -4,7 +4,7 @@ function Skills() {
     return (
         <div className="col s12">
             <h5 className="white-text" id="skills-heading">Skills</h5>
-            <div className="white-text" id="skills-list">
+            <div className="white-text" id="skills-list-skills">
                 {/* Languages */}
                 <i className="devicon-html5-plain"></i>&nbsp;
                 <i className="devicon-css3-plain"></i>&nbsp;
