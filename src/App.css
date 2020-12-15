@@ -59,3 +59,54 @@ h5 {
 .portfolio-container, .about-container, .contact-container {
   margin-top: 50px;
 }
+
+#project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#skills-list {
+  font-size: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+#title-logo {
+  margin-top: 90px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#about-me-heading, #skills-connect-resume {
+  text-shadow: 2px 2px 4px #000000;
+}
