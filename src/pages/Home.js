@@ -5,7 +5,6 @@ import parallaxMiddle from "../assets/images/Parallax_Middle.jpg";
 import parallaxBottom from "../assets/images/Parallax_Bottom.png";
 import headshot from "../assets/images/Headshot.JPG";
 import pdf from "../assets/RyanRotman_Resume.pdf";
-import "materialize-css/dist/css/materialize.min.css";
 
 function Home(props) {
 
