@@ -28,6 +28,7 @@ function Skills() {
                 <i className="devicon-heroku-original"></i>&nbsp;
                 <i className="devicon-babel-plain"></i>&nbsp;
                 <i className="devicon-webpack-plain"></i>&nbsp;
+                <i class="devicon-redux-original"></i>&nbsp;
                 <i className="devicon-travis-plain"></i>&nbsp;
                 <i className="devicon-slack-plain"></i>&nbsp;
                 {/* Operating Systems */}
