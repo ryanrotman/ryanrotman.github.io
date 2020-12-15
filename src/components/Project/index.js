@@ -1,16 +1,17 @@
+import { useState } from "react";
 import "./index.css";
 
 function Project(props) {
-
-    function revealDescription(event) {
-        
-    }
+    
+    // TODO: continue working on this functionality and then apply to Home.js as well
+    const [isShown, setIsShown] = useState(false)
+    console.log("REVEAL STATUS: ", isShown);
 
     return (
         <div id="project-cards">
             {props.project.map(project => {
                 return (
-                    <div key={project.id} className="card sticky-action hoverable" onMouseOver={revealDescription}>
+                    <div key={project.id} className="card sticky-action hoverable" onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)}>
                         <div className="card-image waves-effect waves-block waves-light">
                             <img className="activator" src={project.screenshot} />
                         </div>
@@ -21,10 +22,10 @@ function Project(props) {
                             <a className="waves-effect waves-light btn" href={project.app} target="_blank">View App</a>
                             <a className="waves-effect waves-light btn" href={project.code} target="_blank">View Code</a>
                         </div>
-                        <div className="card-reveal left-align">
+                        {isShown ? <div className="card-reveal left-align">
                             <span className="card-title grey-text text-darken-4"><strong>{project.title}</strong><i className="material-icons right">close</i></span>
                             <p>{project.description}</p>
-                        </div>
+                        </div> : ""}
                     </div>
                 )
             })}
