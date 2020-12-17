@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import M from "materialize-css";
+import parallaxTop from "../../assets/images/Parallax_Top.jpg"
 
 function Parallax() {
     
@@ -10,7 +11,7 @@ function Parallax() {
     
     return (
         <div id="index-banner" className="parallax-container">
-                <div className="section no-pad-bot">
+                {/* <div className="section no-pad-bot">
                     <div className="container" id="title-logo">
                         <hr />
                             <div className="row">
@@ -20,7 +21,7 @@ function Parallax() {
                             </div>
                         <hr />
                     </div>
-                </div>
+                </div> */}
             <div className="parallax"><img src={parallaxTop} alt="MacBook Pro" /></div>
         </div>
     )
