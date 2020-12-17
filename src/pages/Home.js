@@ -1,22 +1,40 @@
-import { useEffect } from "react";
-import M from "materialize-css"
+import { useState } from "react";
+// import M from "materialize-css"
 import parallaxTop from "../assets/images/Parallax_Top.jpg";
 import parallaxMiddle from "../assets/images/Parallax_Middle.jpg";
 import parallaxBottom from "../assets/images/Parallax_Bottom.png";
-import headshot from "../assets/images/Headshot.JPG";
+// import headshot from "../assets/images/Headshot.JPG";
 import pdf from "../assets/RyanRotman_Resume.pdf";
+import Parallax from "../components/Parallax";
+import Portfolio from "./Portfolio";
+import About from "./About";
+import Contact from "./Contact";
+import Skills from "../components/Skills";
+import Project from "../components/Project";
 
 function Home(props) {
 
-    useEffect(() => {
-        let parallax = document.querySelectorAll(".parallax");
-        M.Parallax.init(parallax, {});
-    }, []);
+    // const [parallax1] = useState([{
+    //     image: parallaxTop,
+    //     text: "Full Stack Web Developer"
+    // }])
+
+    // const [parallax2] = useState([{
+    //     image: parallaxMiddle,
+    //     text: 
+    // }])
+
+    // useEffect(() => {
+    //     let parallax = document.querySelectorAll(".parallax");
+    //     M.Parallax.init(parallax, {});
+    // }, []);
 
     return (
         <div>
             {/* top parallax element */}
-            <div id="index-banner" className="parallax-container">
+            <Parallax />
+
+            {/* <div id="index-banner" className="parallax-container">
                 <div className="section no-pad-bot">
                     <div className="container" id="title-logo">
                         <hr />
@@ -30,10 +48,16 @@ function Home(props) {
                 </div>
                 <div className="parallax"><img src={parallaxTop} alt="MacBook Pro" /></div>
             </div>
-            <br />
+            <br /> */}
 
             {/* portfolio section */}
             <div className="container">
+                <Project
+                    project={props.project}
+                />
+            </div>
+
+            {/* <div className="container">
                 <h5 className="white-text center-align" id="projects-heading">Projects</h5>
                 <p className="white-text center-align" id="projects-note"><i>(click on the image to see a description of the app)</i></p>
                 <div id="project-cards">
@@ -58,10 +82,12 @@ function Home(props) {
                         )
                     })}
                 </div>
-            </div>
+            </div> */}
 
             {/* middle parallax element */}
-            <div className="parallax-container valign-wrapper">
+            <Parallax />
+
+            {/* <div className="parallax-container valign-wrapper">
                 <div className="section no-pad-bot">
                     <div className="container">
                         <div className="row center">
@@ -70,10 +96,12 @@ function Home(props) {
                     </div>
                 </div>
                 <div className="parallax"><img src={parallaxMiddle} alt="Laptop on desk" /></div>
-            </div>
+            </div> */}
 
             {/* about me section */}
-            <div className="container about-container">
+            <About />
+
+            {/* <div className="container about-container">
                 <div className="row">
                     <div className="col s12 m4 center">
                         <img className="responsive-img circle" id="headshot" src={headshot} alt="personal headshot" />
@@ -85,10 +113,12 @@ function Home(props) {
                         <p className="white-text">I currently live in Georgetown, Texas with my beautiful wife and darling daughter.</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* bottom parallax element */}
-            <div className="parallax-container valign-wrapper">
+            <Parallax />
+
+            {/* <div className="parallax-container valign-wrapper">
                 <div className="section no-pad-bot">
                     <div className="container">
                         <div className="row center">
@@ -97,33 +127,46 @@ function Home(props) {
                     </div>
                 </div>
                 <div className="parallax"><img src={parallaxBottom} alt="Computer Keyboard" /></div>
-            </div>
+            </div> */}
 
             {/* skills and connect section */}
             <div className="container">
                 <div className="row">
-                    {/* skills section */}
                     <div className="col l9 s12">
+                        <Skills />
+                    </div>
+                    <div className="col l3 s12">
+                        <Contact />
+                    </div>
+                </div>
+            </div>
+            
+            {/* <Contact /> */}
+            
+            {/* <div className="container">
+                <div className="row"> */}
+                    {/* skills section */}
+                    {/* <div className="col l9 s12">
                         <h5 className="white-text" id="skills-heading">Skills</h5>
                         <br />
-                        <div className="white-text" id="skills-list">
+                        <div className="white-text" id="skills-list"> */}
                             {/* Languages */}
-                            <i className="devicon-html5-plain"></i>&nbsp;
+                            {/* <i className="devicon-html5-plain"></i>&nbsp;
                             <i className="devicon-css3-plain"></i>&nbsp;
                             <i className="devicon-javascript-plain"></i>&nbsp;
-                            <i className="devicon-jquery-plain"></i>&nbsp;
+                            <i className="devicon-jquery-plain"></i>&nbsp; */}
                             {/* Frameworks */}
-                            <i className="devicon-nodejs-plain"></i>&nbsp;
+                            {/* <i className="devicon-nodejs-plain"></i>&nbsp;
                             <i className="devicon-express-original"></i>&nbsp;
                             <i className="devicon-react-original"></i>&nbsp;
                             <i className="devicon-bootstrap-plain"></i>&nbsp;
                             <i className="devicon-handlebars-plain"></i>&nbsp;
-                            <i className="devicon-sequelize-plain"></i>&nbsp;
+                            <i className="devicon-sequelize-plain"></i>&nbsp; */}
                             {/* Database */}
-                            <i className="devicon-mysql-plain"></i>&nbsp;
-                            <i className="devicon-mongodb-plain"></i>&nbsp;
+                            {/* <i className="devicon-mysql-plain"></i>&nbsp;
+                            <i className="devicon-mongodb-plain"></i>&nbsp; */}
                             {/* Tools/Tech */}
-                            <i className="devicon-git-plain"></i>&nbsp;
+                            {/* <i className="devicon-git-plain"></i>&nbsp;
                             <i className="devicon-github-plain"></i>&nbsp;
                             <i className="devicon-visualstudio-plain"></i>&nbsp;
                             <i className="devicon-npm-original-wordmark"></i>&nbsp;
@@ -132,15 +175,15 @@ function Home(props) {
                             <i className="devicon-webpack-plain"></i>&nbsp;
                             <i className="devicon-redux-original"></i>&nbsp;
                             <i className="devicon-travis-plain"></i>&nbsp;
-                            <i className="devicon-slack-plain"></i>&nbsp;
+                            <i className="devicon-slack-plain"></i>&nbsp; */}
                             {/* Operating Systems */}
-                            <i className="devicon-apple-original"></i>&nbsp;
+                            {/* <i className="devicon-apple-original"></i>&nbsp;
                             <i className="devicon-chrome-plain"></i>&nbsp;
                         </div>
-                    </div>
+                    </div> */}
                     {/* end of skills section */}
                     {/* connect section */}
-                    <div className="col l3 s12">
+                    {/* <div className="col l3 s12">
                         <div className="row">
                             <div className="col s12">
                                 <h5 className="white-text" id="connect-heading">Connect</h5>
@@ -169,10 +212,10 @@ function Home(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* end of connect section */}
-                </div>
-            </div>
+                {/* </div>
+            </div> */}
 
         </div>
     );
