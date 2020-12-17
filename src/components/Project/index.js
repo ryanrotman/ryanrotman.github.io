@@ -1,11 +1,10 @@
-import { useState } from "react";
+import { useRef } from "react";
 import "./index.css";
 
 function Project(props) {
     
-    // TODO: continue working on this functionality and then apply to Home.js as well
-    const [isShown, setIsShown] = useState(false)
-    console.log("REVEAL STATUS: ", isShown);
+    const activator = useRef();
+    const close = useRef();
 
     return (
         <div className="center-align" id="project-section">
@@ -14,9 +13,9 @@ function Project(props) {
             <div id="project-cards">
                 {props.project.map(project => {
                     return (
-                        <div key={project.id} className="card sticky-action hoverable" onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)}>
+                        <div key={project.id} className="card sticky-action hoverable" onMouseEnter={() => activator.current.click()} onMouseLeave={() => close.current.click()}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" id="project-screenshot" src={project.screenshot} />
+                                <img className="activator" id="project-screenshot" ref={activator} src={project.screenshot} />
                             </div>
                             <div className="card-content left-align">
                                 <span className="card-title activator grey-text text-darken-4"><strong>{project.title}</strong></span>
@@ -25,10 +24,10 @@ function Project(props) {
                                 <a className="waves-effect waves-light btn" href={project.app} target="_blank">View App</a>
                                 <a className="waves-effect waves-light btn" href={project.code} target="_blank">View Code</a>
                             </div>
-                            {isShown ? <div className="card-reveal left-align">
-                                <span className="card-title grey-text text-darken-4"><strong>{project.title}</strong><i className="material-icons right">close</i></span>
+                            <div className="card-reveal left-align">
+                                <span className="card-title grey-text text-darken-4"><strong>{project.title}</strong><i className="material-icons right" ref={close}>close</i></span>
                                 <p>{project.description}</p>
-                            </div> : ""}
+                            </div>
                         </div>
                     )
                 })}
