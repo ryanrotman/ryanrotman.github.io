@@ -1,4 +1,4 @@
-// import { useEffect } from "react";
+import { useEffect } from "react";
 import Connect from "../components/Connect";
 import ContactMe from "../components/ContactMe";
 import Resume from "../components/Resume";
@@ -6,9 +6,9 @@ import Form from "../components/Form";
 
 function Contact() {
 
-    // useEffect(() => {
-    //     document.title = "Contact | Ryan Rotman"
-    // }, []);
+    useEffect(() => {
+        document.title = "Contact | Ryan Rotman"
+    }, []);
 
     return (
         <div className="container contact-container center-align">
