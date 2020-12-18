@@ -12,6 +12,9 @@ import Contact from "./Contact";
 import Skills from "../components/Skills";
 import Project from "../components/Project";
 import AboutMe from "../components/AboutMe";
+import Connect from "../components/Connect";
+import ContactMe from "../components/ContactMe";
+import Resume from "../components/Resume";
 
 function Home(props) {
 
@@ -161,7 +164,21 @@ function Home(props) {
                         <Skills />
                     </div>
                     <div className="col l3 s12">
-                        <Contact />
+                        <div className="row">
+                            <div className="col s12">
+                                <Connect />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col s12">
+                                <ContactMe />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col s12">
+                                <Resume />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
