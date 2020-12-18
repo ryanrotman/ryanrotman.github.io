@@ -11,6 +11,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Skills from "../components/Skills";
 import Project from "../components/Project";
+import AboutMe from "../components/AboutMe";
 
 function Home(props) {
 
@@ -50,11 +51,31 @@ function Home(props) {
             </div>
             <br /> */}
 
-            {/* portfolio section */}
-            <div className="container">
-                <Project
+            {/* project section */}
+            <div className="container center-align">
+                <div id="project-cards">
+                    <Project
+                    project={props.project[0]}
+                    />
+                    <Project
+                    project={props.project[1]}
+                    />
+                    <Project
+                    project={props.project[2]}
+                    />
+                    <Project
+                    project={props.project[3]}
+                    />
+                    <Project
+                    project={props.project[4]}
+                    />
+                    <Project
+                    project={props.project[5]}
+                    />
+                </div>
+                {/* <Project
                     project={props.project}
-                />
+                /> */}
             </div>
 
             {/* <div className="container">
@@ -99,7 +120,11 @@ function Home(props) {
             </div> */}
 
             {/* about me section */}
-            <About />
+            <div className="container">
+                <div className="row">
+                    <AboutMe />
+                </div>
+            </div>
 
             {/* <div className="container about-container">
                 <div className="row">
