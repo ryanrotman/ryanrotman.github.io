@@ -9,7 +9,7 @@ function Project(props) {
     return (
         <div className="card sticky-action hoverable" onMouseEnter={() => activator.current.click()} onMouseLeave={() => close.current.click()}>
             <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" id="project-screenshot" ref={activator} src={props.project.screenshot} />
+                <img className="activator project-screenshot" ref={activator} src={props.project.screenshot} />
             </div>
             <div className="card-content left-align">
                 <span className="card-title activator grey-text text-darken-4"><strong>{props.project.title}</strong></span>
