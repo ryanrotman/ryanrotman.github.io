@@ -2,7 +2,7 @@ import "./index.css";
 
 function Skills() {    
     return (
-        <div className="col s12">
+        <div>
             <h5 className="white-text" id="skills-heading">Skills</h5>
             <div className="white-text" id="skills-list-skills">
                 {/* Languages */}
