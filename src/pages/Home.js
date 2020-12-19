@@ -16,7 +16,7 @@ function Home(props) {
             <ParallaxTop />
 
             {/* project section */}
-            <div className="container center-align">
+            <div className="container center-align" id="home-project-container">
                 <div id="project-cards">
                     <Project
                     project={props.project[0]}
@@ -43,7 +43,7 @@ function Home(props) {
             <ParallaxMiddle />
 
             {/* about me section */}
-            <div className="container">
+            <div className="container" id="home-about-container">
                 <div className="row">
                     <AboutMe />
                 </div>
@@ -53,7 +53,7 @@ function Home(props) {
             <ParallaxBottom />
 
             {/* skills and connect section */}
-            <div className="container">
+            <div className="container" id="home-skills-contact-container">
                 <div className="row">
                     <div className="col l9 s12">
                         <Skills />
