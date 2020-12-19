@@ -6,6 +6,9 @@ import parallaxBottom from "../assets/images/Parallax_Bottom.png";
 // import headshot from "../assets/images/Headshot.JPG";
 import pdf from "../assets/RyanRotman_Resume.pdf";
 import Parallax from "../components/Parallax";
+import ParallaxTop from "../components/ParallaxTop";
+import ParallaxMiddle from "../components/ParallaxMiddle";
+import ParallaxBottom from "../components/ParallaxBottom";
 import Portfolio from "./Portfolio";
 import About from "./About";
 import Contact from "./Contact";
@@ -36,7 +39,7 @@ function Home(props) {
     return (
         <div>
             {/* top parallax element */}
-            <Parallax />
+            <ParallaxTop />
 
             {/* <div id="index-banner" className="parallax-container">
                 <div className="section no-pad-bot">
@@ -109,7 +112,7 @@ function Home(props) {
             </div> */}
 
             {/* middle parallax element */}
-            <Parallax />
+            <ParallaxMiddle />
 
             {/* <div className="parallax-container valign-wrapper">
                 <div className="section no-pad-bot">
@@ -144,7 +147,7 @@ function Home(props) {
             </div> */}
 
             {/* bottom parallax element */}
-            <Parallax />
+            <ParallaxBottom />
 
             {/* <div className="parallax-container valign-wrapper">
                 <div className="section no-pad-bot">
