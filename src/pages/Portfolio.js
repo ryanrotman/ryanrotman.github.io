@@ -34,18 +34,10 @@ function Portfolio(props) {
                 </div>
             </div>
             &nbsp;
-            <div className="center-align">
+            <div className="col s12 center-align" id="portfolio-page-skills-section">
                 <Skills />
             </div>
         </div>
-
-        // <div className="container portfolio-container center-align">
-        //     <Project
-        //     project={props.project}
-        //     />
-        //     &nbsp;
-        //     <Skills />
-        // </div>
     );
 }
 
