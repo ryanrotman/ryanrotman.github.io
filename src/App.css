@@ -120,3 +120,16 @@ h5 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+html, body, #root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
