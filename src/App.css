@@ -68,13 +68,6 @@ h5 {
   margin-bottom: 10px;
 }
 
-#skills-list {
-  font-size: 70px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-}
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -84,6 +77,12 @@ h5 {
 
 .parallax-container .section {
   width: 100%;
+}
+
+@media only screen and (max-width : 1440px) {
+  #title-logo {
+    margin-top: 90px;
+  }
 }
 
 @media only screen and (max-width : 992px) {
@@ -100,10 +99,12 @@ h5 {
   #index-banner .section {
     top: 0;
   }
+  #title-logo {
+    margin-top: 30px;
+  }
 }
 
 #title-logo {
-  margin-top: 90px;
   background-color: rgba(255, 255, 255, 0.3);
   text-shadow: 2px 2px 4px #000000;
 }
