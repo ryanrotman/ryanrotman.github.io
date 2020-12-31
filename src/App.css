@@ -83,6 +83,9 @@ h5 {
   #title-logo {
     margin-top: 90px;
   }
+  .mobile-screen-note {
+    display: none;
+  }
 }
 
 @media only screen and (max-width : 992px) {
@@ -93,6 +96,9 @@ h5 {
   #index-banner .section {
     top: 10%;
   }
+  .mobile-screen-note {
+    display: none;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -101,6 +107,9 @@ h5 {
   }
   #title-logo {
     margin-top: 60px;
+  }
+  .mobile-screen-note {
+    display: inline;
   }
 }
 
