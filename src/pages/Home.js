@@ -45,6 +45,9 @@ function Home(props) {
                     <Project
                     project={props.project[6]}
                     />
+                    <Project
+                    project={props.project[7]}
+                    />
                 </div>
             </div>
 
