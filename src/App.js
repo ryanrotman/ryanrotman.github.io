@@ -33,7 +33,7 @@ function App() {
     title: "Google Books Search",
     description: "A full stack application built with MongoDB, Express, React, and Node that uses the Google Books API and allows for a user to search for books, view books, and save or delete them from the database.",
     app: "https://rr-google-books-search.herokuapp.com/",
-    code: "https://github.com/ryanrotman/homework-21-google-books-react-search",
+    code: "https://github.com/ryanrotman/google-books-react-search",
     screenshot: homework21Img
     },
     {
