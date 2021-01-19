@@ -80,7 +80,7 @@ function App() {
     id: 8,
     title: "Weather Dashboard",
     description: "Weather dashboard that incorporates third-party APIs using jQuery's AJAX call to show a city's current temperature, humidity, wind speed, uv index and 5-day forecast. Uses Local Storage for persistent data.",
-    app: "https://ryanrotman.github.io/homework-6-weather-dashboard/",
+    app: "https://ryanrotman.github.io/weather-dashboard/",
     code: "https://github.com/ryanrotman/weather-dashboard",
     screenshot: homework6Img
     }
