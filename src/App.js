@@ -73,7 +73,7 @@ function App() {
     title: "Note Taker",
     description: "This an express application that allows a user to write notes, view submitted notes, and delete notes.",
     app: "https://radiant-tor-19120.herokuapp.com",
-    code: "https://github.com/ryanrotman/homework-11-note-taker",
+    code: "https://github.com/ryanrotman/express-note-taker",
     screenshot: homework11Img
     },
     {
