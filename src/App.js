@@ -57,7 +57,7 @@ function App() {
     title: "Eat-Da-Burger",
     description: "Burger logger that allows a user to create a burger, change its devoured status, and delete a burger. This app uses Node, Express, Handlebars, and MySQL.",
     app: "https://rr-eat-da-burger.herokuapp.com",
-    code: "https://github.com/ryanrotman/homework-13-eat-da-burger",
+    code: "https://github.com/ryanrotman/handlebars-eat-da-burger",
     screenshot: homework13Img
     },
     {
