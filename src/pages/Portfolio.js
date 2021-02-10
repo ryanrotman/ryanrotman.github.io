@@ -38,6 +38,9 @@ function Portfolio(props) {
                     <Project
                     project={props.project[7]}
                     />
+                    <Project
+                    project={props.project[8]}
+                    />
                 </div>
             </div>
             &nbsp;

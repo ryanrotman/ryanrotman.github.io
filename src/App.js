@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import portfolioImg from "./assets/images/PortfolioPage_Screenshot_Portfolio.png";
 import project1Img from "./assets/images/PortfolioPage_Screenshot_Project1.png";
 import project2Img from "./assets/images/PortfolioPage_Screenshot_Project2.png";
 import project3Img from "./assets/images/PortfolioPage_Screenshot_Project3.png";
@@ -38,6 +39,14 @@ function App() {
     },
     {
     id: 3,
+    title: "Portfolio",
+    description: "This is the code for the very site you are currently looking at! This site is created with React, the Materialize CSS framework, and JavaScript.",
+    app: "https://ryanrotman.github.io/",
+    code: "https://github.com/ryanrotman/ryanrotman.github.io/tree/source-code",
+    screenshot: portfolioImg
+    },
+    {
+    id: 4,
     title: "Reading List",
     description: "A full-stack app built on MongoDB, Express, React, and Node that allows a user to add a book, author, and synopsis to their list of books they want to read.",
     app: "https://rr-react-reading-list.herokuapp.com/",
@@ -45,7 +54,7 @@ function App() {
     screenshot: readingListImg
     },
     {
-    id: 4,
+    id: 5,
     title: "It's a Blog's Life",
     description: "A full-stack weblog app built on NodeJS using express-sequelize, handlebars, Passport, and ESLint. Share your thoughts, find new friends, and give feedback to others content in the form of comments and likes!",
     app: "https://its-a-blogs-life.herokuapp.com/",
@@ -53,7 +62,7 @@ function App() {
     screenshot: project2Img
     },
     {
-    id: 5,
+    id: 6,
     title: "Eat-Da-Burger",
     description: "Burger logger that allows a user to create a burger, change its devoured status, and delete a burger. This app uses Node, Express, Handlebars, and MySQL.",
     app: "https://rr-eat-da-burger.herokuapp.com",
@@ -61,7 +70,7 @@ function App() {
     screenshot: homework13Img
     },
     {
-    id: 6,
+    id: 7,
     title: "SHAKR App",
     description: "A cocktail generator web-app that uses theCocktailDB.com and Google Maps API to render cocktail recipes based on user-submitted ingredients on-hand.",
     app: "https://abraspin.github.io/Project-1-The-Silent-Marvels-/",
@@ -69,7 +78,7 @@ function App() {
     screenshot: project1Img
     },
     {
-    id: 7,
+    id: 8,
     title: "Note Taker",
     description: "This an express application that allows a user to write notes, view submitted notes, and delete notes.",
     app: "https://rr-express-note-taker.herokuapp.com/",
@@ -77,7 +86,7 @@ function App() {
     screenshot: homework11Img
     },
     {
-    id: 8,
+    id: 9,
     title: "Weather Dashboard",
     description: "Weather dashboard that incorporates third-party APIs using jQuery's AJAX call to show a city's current temperature, humidity, wind speed, uv index and 5-day forecast. Uses Local Storage for persistent data.",
     app: "https://ryanrotman.github.io/weather-dashboard/",
