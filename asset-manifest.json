@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f2893608.chunk.css",
-    "main.js": "/static/js/main.7cb27eca.chunk.js",
-    "main.js.map": "/static/js/main.7cb27eca.chunk.js.map",
+    "main.js": "/static/js/main.2b24387f.chunk.js",
+    "main.js.map": "/static/js/main.2b24387f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2efd2855.js",
     "runtime-main.js.map": "/static/js/runtime-main.2efd2855.js.map",
     "static/css/2.a7230bcb.chunk.css": "/static/css/2.a7230bcb.chunk.css",
@@ -22,6 +22,7 @@
     "static/media/PortfolioPage_ScreenShot_Homework13.be85efbe.png": "/static/media/PortfolioPage_ScreenShot_Homework13.be85efbe.png",
     "static/media/PortfolioPage_ScreenShot_Homework21.eface17d.png": "/static/media/PortfolioPage_ScreenShot_Homework21.eface17d.png",
     "static/media/PortfolioPage_Screenshot_Homework6.fc97f908.png": "/static/media/PortfolioPage_Screenshot_Homework6.fc97f908.png",
+    "static/media/PortfolioPage_Screenshot_Portfolio.52038e05.png": "/static/media/PortfolioPage_Screenshot_Portfolio.52038e05.png",
     "static/media/PortfolioPage_Screenshot_Project1.c0dc6cc9.png": "/static/media/PortfolioPage_Screenshot_Project1.c0dc6cc9.png",
     "static/media/PortfolioPage_Screenshot_Project2.a1aa03b6.png": "/static/media/PortfolioPage_Screenshot_Project2.a1aa03b6.png",
     "static/media/PortfolioPage_Screenshot_Project3.3b044b60.png": "/static/media/PortfolioPage_Screenshot_Project3.3b044b60.png",
@@ -33,6 +34,6 @@
     "static/css/2.a7230bcb.chunk.css",
     "static/js/2.01a36600.chunk.js",
     "static/css/main.f2893608.chunk.css",
-    "static/js/main.7cb27eca.chunk.js"
+    "static/js/main.2b24387f.chunk.js"
   ]
 }
