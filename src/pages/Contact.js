@@ -30,7 +30,11 @@ function Contact() {
                 </div>
             </div>
             <br />
-            <Form />
+            <div className="row">
+                <div className="col l6 offset-l3 s12">
+                    <Form />
+                </div>
+            </div>
         </div>
     );
 }
