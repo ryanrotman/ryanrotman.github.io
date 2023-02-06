@@ -22,6 +22,7 @@ function Home(props) {
 
             {/* project section */}
             <div className="container center-align" id="home-project-container">
+                <p className="white-text">Apologies that some apps are not available at the moment. Working on migrating projects from Heroku to a new hosting site.</p>
                 <p className="white-text mobile-screen-note"><i>(Click on the image to see a description of the project)</i></p>
                 <div id="project-cards">
                     <Project
