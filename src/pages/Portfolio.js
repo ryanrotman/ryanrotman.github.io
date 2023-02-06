@@ -12,6 +12,7 @@ function Portfolio(props) {
         <div className="container">
             <div className="center-align" id="project-section">
                 <h5 className="white-text" id="projects-heading">Projects</h5>
+                <p className="white-text">Apologies that some apps are not available at the moment. Working on migrating projects from Heroku to a new hosting site.</p>
                 <p className="white-text mobile-screen-note"><i>(Click on the image to see a description of the project)</i></p>
                 <div id="project-cards">
                     <Project
