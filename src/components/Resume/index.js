@@ -1,4 +1,4 @@
-import pdf from "../../assets/RyanRotman_Resume.pdf";
+import pdf from "../../assets/RyanRotman_Resume_SFCC_B2CCommerceDeveloper.pdf";
 
 function Resume() {
     return (
